@@ -146,6 +146,8 @@ public class LoginPopup : MonoBehaviour
     /// <param name="data">WCSessionData</param>
     public async void WalletConnectHandler(WCSessionData data)
     {
+        title.SetActive(true);
+
         Debug.Log("Wallet connection received");
         // Extract wallet address from the Wallet Connect Session data object.
         string address = data.accounts[0].ToLower();

@@ -17,12 +17,16 @@ public class UIPopup : MonoBehaviour
     private void Start()
     {
         canvasGroup.alpha = 0;
-        fade.SetActive(false);
+
+        if ( fade != null)
+            fade.SetActive(false);
     }
 
     public void Show()
     {
-        fade.SetActive(true);
+        if ( fade != null )
+            fade.SetActive(true);
+
         canvasGroup.alpha = 0;
         canvasGroup.DOFade(1.0f, tweenTime);
         panel.Show();
@@ -33,7 +37,8 @@ public class UIPopup : MonoBehaviour
     {
         panel.Hide();
         canvasGroup.DOFade(0, tweenTime).OnComplete(() => {
-            fade.SetActive(false);
+            if (fade != null )
+                fade.SetActive(false);
         });
     }
 

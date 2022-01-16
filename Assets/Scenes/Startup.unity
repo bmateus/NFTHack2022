@@ -316,7 +316,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5175095894888145820, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
+      propertyPath: AppData.URL
+      value: https://github.com/bmateus/NFTHack2022
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
+      propertyPath: AppData.Name
+      value: NFT Dungeon Adventure
       objectReference: {fileID: 0}
     - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
       propertyPath: connectOnAwake
@@ -324,11 +332,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
       propertyPath: connectOnStart
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
       propertyPath: autoSaveAndResume
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
+      propertyPath: AppData.Description
+      value: Project for NFTHack-2022
       objectReference: {fileID: 0}
     - target: {fileID: 5175095894888145821, guid: ce99fd52594d5e54f972689a083ac409, type: 3}
       propertyPath: ConnectedEvent.m_PersistentCalls.m_Calls.Array.size
@@ -1394,8 +1406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aefb69ab012da334e869b1bc9ea161a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoralisApplicationId: '[REDACTED]'
-  MoralisServerURI: '[REDACTED]'
+  MoralisApplicationId: 80zPLUSkIBfS7apoJENaueENE2lEkNIWrhnGrFeS
+  MoralisServerURI: https://y8emtia93i9r.bigmoralis.com:2053/server
   ApplicationName: NFT Hack 2022 PRoject
   Version: 1.0
   AuthenticationButton: {fileID: 990276067045873226}
