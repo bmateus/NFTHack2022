@@ -14,5 +14,5 @@ The Moralis Unity SDK is pretty new so I wanted to go through the process of bui
 Deployed (and verified) on Polygon:
 
 - DungeonPlayer.sol (You can use this to mint an adventurer / DUNGEON ADVENTURER / ADV)
-https://polygonscan.com/address/0x3adebd2d62841c9e1110a84a305586861cdef8cb#code
+https://polygonscan.com/address/0xF7eF54F931ccBdbad5e6Bf69badFD5af3C202848#code
 
