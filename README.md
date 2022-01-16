@@ -9,3 +9,9 @@ The idea of this project was to utilize the new Moralis Unity SDK to create a si
 ## Details
 
 The Moralis Unity SDK is pretty new so I wanted to go through the process of building something with it to see what it was capable of and to discover if it had any bugs. I spent some time creating a startup scene in unity that would connect the users wallet with WalletConnect and login to the Moralis server. Next, I created a simple dungeon exploration game in Unity and figured out what kind of mechanics the game would need on-chain and off-chain. My plan was to have the Moralis server keep track of the player's progress in the dungeon - the player's health, what monsters they have slain and what treasure the player has collected. After that I created a contract for the Adventurer - I wanted to create a contract that could "hold" other Tokens but I don't have much experience with that and it would take longer than the available time. I wanted to show the ENS name of the player in game, but it seems there is a bug with the Moralis Unity SDK where this is not supported(I will file a bug about it!). After this I created a set of procedurally generated avatars using different layered images and uploaded the metadata and image data to IPFS using Pinata. Afterwards, I started working on the dungeon contract. A player would be able to burn their dungeon once they had completed it to gain the rewards. The Moralis server would provide a signature so that we could validate on-chain that the arguments to this function were not tampered with to prevent cheating. 
+
+##Contracts
+
+- Deployed (and verified) on Polygon:
+https://polygonscan.com/address/0xd649946076d587af74cad517734935018a54cc2a
+You can use this to mint an adventurer
